@@ -12,23 +12,23 @@
 
 ## Master Mapping Table
 
-| # | Vanta Issue | Severity | Vanta Status | Vanta Owner | RCM Control(s) | RCM Issue # | Suggested Deadline |
+| # | Vanta Issue | Severity | Vanta Status | Vanta Owner | RCM Control(s) | RCM Issue # | Due Date |
 |---|---|---|---|---|---|---|---|
 | 1 | Annual Cybersecurity Strategy has not been reviewed or approved | Low | Not started | DC | C.Cyber.Gov.01 | — | **Mar 31, 2026** ✅ |
 | 2 | Lack of Updates and Reporting of the Cybersecurity Strategy to Governance Committees and the Board | Low | Not started | DC | C.Cyber.Gov.02 | — | **Mar 31, 2026** ✅ |
-| 3 | Incomplete Asset Inventory and Lack of a Unified Source of Truth | High | Not started | OG | C.Cyber.CVM.03 · C.Cyber.CVN.04 | **#3 · #4** | **Jun 30, 2026** ⬅ |
-| 4 | Excessive system access risk (ELC-R34) | Medium | Not started | DC | C.Cyber.CVN.05 · C.Cyber.NTW.06 | — | **Jun 30, 2026** ⬅ |
-| 5 | Lack of an Actionable Implementation BCP & DRP | Medium | Not started | OG | C.Cyber.RM.06 | — | **Jun 30, 2026** ⬅ |
-| 6 | Incomplete Backups and Insufficient Data Retention Periods | Medium | Not started | OG | C.Cyber.NTW.05 | — | **Jun 30, 2026** ⬅ |
-| 7 | Lack of Formal Stakeholder Engagement and Accountability in Cybersecurity Risk Management | Medium | Not started | DC | C.Cyber.Gov.05 · C.Cyber.RM.01 | — | **Jun 30, 2026** ⬅ |
-| 8 | Incomplete and Unapproved Cybersecurity Policy Framework | High | **In progress** | DC | C.Cyber.Gov.03 · C.Cyber.RM.02 · C.Cyber.RM.03 | **#1** (partial) | **Jun 30, 2026** ⬅ urgent |
-| 9 | Incomplete Definition of Cybersecurity Roles, Responsibilities and Key Positions | Medium | Not started | DC | C.Cyber.Gov.04 | — | **Jun 30, 2026** ⬅ |
-| 10 | Lack of Formal Cybersecurity Risk Assessment Process Integrated with ERM | High | Not started | DC | C.Cyber.RM.01 · C.Cyber.RM.03 | — | **Jun 30, 2026** ⬅ |
-| 11 | Continuous Vulnerability Management Program – Governance, Tooling and Coverage Gaps | High | Not started | DC | C.Cyber.CVM.01 · C.Cyber.CVM.02 | **#1 · #2** | **Jun 30, 2026** ⬅ |
-| 12 | Network Security – Missing Standards, Monitoring Controls and Traceability | High | Not started | DC | C.Cyber.NTW.01 · C.Cyber.NTW.3.1 · C.Cyber.NTW.3.4 · C.Cyber.EUC.03 | — | **Sep 30, 2026** ⬅ |
-| 13 | Cybersecurity Policy Misalignment Across Subsidiaries – Brazil and Argentina | Medium | Not started | DC | C.Cyber.NTW.07 | — | **Sep 30, 2026** ⬅ |
+| 3 | Incomplete Asset Inventory and Lack of a Unified Source of Truth | High | Not started | OG | C.Cyber.CVM.03 · C.Cyber.CVN.04 | **#3 · #4** | To be defined |
+| 4 | Excessive system access risk (ELC-R34) | Medium | Not started | DC | C.Cyber.CVN.05 · C.Cyber.NTW.06 | — | To be defined |
+| 5 | Lack of an Actionable Implementation BCP & DRP | Medium | Not started | OG | C.Cyber.RM.06 | — | To be defined |
+| 6 | Incomplete Backups and Insufficient Data Retention Periods | Medium | Not started | OG | C.Cyber.NTW.05 | — | To be defined |
+| 7 | Lack of Formal Stakeholder Engagement and Accountability in Cybersecurity Risk Management | Medium | Not started | DC | C.Cyber.Gov.05 · C.Cyber.RM.01 | — | To be defined |
+| 8 | Incomplete and Unapproved Cybersecurity Policy Framework | High | **In progress** | DC | C.Cyber.Gov.03 · C.Cyber.RM.02 · C.Cyber.RM.03 | **#1** (partial) | To be defined |
+| 9 | Incomplete Definition of Cybersecurity Roles, Responsibilities and Key Positions | Medium | Not started | DC | C.Cyber.Gov.04 | — | To be defined |
+| 10 | Lack of Formal Cybersecurity Risk Assessment Process Integrated with ERM | High | Not started | DC | C.Cyber.RM.01 · C.Cyber.RM.03 | — | To be defined |
+| 11 | Continuous Vulnerability Management Program – Governance, Tooling and Coverage Gaps | High | Not started | DC | C.Cyber.CVM.01 · C.Cyber.CVM.02 | **#1 · #2** | To be defined |
+| 12 | Network Security – Missing Standards, Monitoring Controls and Traceability | High | Not started | DC | C.Cyber.NTW.01 · C.Cyber.NTW.3.1 · C.Cyber.NTW.3.4 · C.Cyber.EUC.03 | — | To be defined |
+| 13 | Cybersecurity Policy Misalignment Across Subsidiaries – Brazil and Argentina | Medium | Not started | DC | C.Cyber.NTW.07 | — | To be defined |
 
-> ✅ = Deadline already set in Vanta | ⬅ = Suggested deadline | **Issues 3, 8, 10, 11 have no deadline set in Vanta yet — add immediately (High severity + SOX 404 impact)**
+> ✅ = Deadline set in Vanta | Issues **#3–#13** have no deadline set in Vanta or in the RCM report — to be agreed with management.
 
 ---
 
@@ -98,7 +98,7 @@
 
 **Policy linkage:** Asset Management Policy · Cloud Security Policy · Vulnerability Management Procedures
 **Suggested Owner (remediation):** OG (Vanta) — consider involving David Cirielli, CISO for CVM tooling component
-**Suggested Deadline:** **June 30, 2026** — *(2 formal High-priority RCM issues; no Vanta deadline set)*
+**Due date:** To be defined
 
 ---
 
@@ -118,7 +118,7 @@
 **Recommendation:** Conduct an immediate access review across all AD groups with broad memberships. Implement a formal UAR cycle (at minimum semi-annual). Define and enforce least-privilege access aligned with documented role requirements (`C.Cyber.Gov.04` remediation).
 
 **Policy linkage:** Access Management Policy · Identity & Privilege Management · UAR Procedures
-**Suggested Deadline:** **June 30, 2026**
+**Due date:** To be defined
 
 ---
 
@@ -137,7 +137,7 @@
 
 **Policy linkage:** Business Continuity Policy · Disaster Recovery Plan · Incident Response Procedures
 **Suggested Owner (remediation):** OG (operational BCP/DRP owner) + David Cirielli, CISO (policy framework sign-off)
-**Suggested Deadline:** **June 30, 2026**
+**Due date:** To be defined
 
 ---
 
@@ -160,7 +160,7 @@
 
 **Policy linkage:** Backup & Recovery Policy · Data Retention Policy · Log Management Procedures
 **Suggested Owner (remediation):** OG (infrastructure) + Ezequiel Tavella, Cybersecurity Manager (FortiCloud oversight)
-**Suggested Deadline:** **June 30, 2026**
+**Due date:** To be defined
 
 ---
 
@@ -183,7 +183,7 @@
 **Recommendation:** Define and implement a formal cybersecurity risk management process integrated with ERM. Establish documented RACI for risk ownership and escalation. Resolve third-party risk backlog. Report status to governance committees quarterly.
 
 **Policy linkage:** Cybersecurity Risk Management Policy · Third-Party Risk Policy · ERM Integration Framework
-**Suggested Deadline:** **June 30, 2026**
+**Due date:** To be defined
 
 ---
 
@@ -209,7 +209,7 @@
 **Recommendation:** Complete the policy framework as the highest-priority remediation. Obtain CISO and governance-level approval for all policies. Translate and publish in all required languages. Define an annual review cycle with assigned document owners. This issue is already In Progress — a formal deadline must be set to maintain SOX 404 evidence.
 
 **Policy linkage:** Information Security Policy · All Cybersecurity sub-policies, standards, and procedures
-**Suggested Deadline:** **June 30, 2026** *(In Progress — deadline required immediately to close within H1 2026)*
+**Due date:** To be defined *(In Progress — a deadline should be set in Vanta as soon as possible)*
 
 ---
 
@@ -225,7 +225,7 @@
 **Recommendation:** Define and formally document role-specific responsibilities, competency requirements, and certification expectations for all key cybersecurity positions supporting ICFR. Publish in Workday and integrate with onboarding. This also directly enables enforcement of least-privilege access controls (Vanta Issue #4).
 
 **Policy linkage:** Cybersecurity Organizational Structure Policy · HR Security Policy · Job Description Framework
-**Suggested Deadline:** **June 30, 2026**
+**Due date:** To be defined
 
 ---
 
@@ -243,7 +243,7 @@
 **Recommendation:** Design, document, and implement a formal cybersecurity risk assessment methodology aligned with the Company's ERM framework and COSO ERM principles. Require at minimum annual assessments with documented outputs. Obtain Audit Committee visibility.
 
 **Policy linkage:** Cybersecurity Risk Assessment Methodology · ERM Integration Policy · Risk Appetite Framework
-**Suggested Deadline:** **June 30, 2026**
+**Due date:** To be defined
 
 ---
 
@@ -268,7 +268,7 @@
 (iv) Implement tooling coverage across all in-scope asset classes.
 
 **Policy linkage:** Vulnerability Management Policy · Incident Management Policy · CVM Program Charter
-**Suggested Deadline:** **June 30, 2026** *(2 formal High-priority RCM Issues — highest remediation urgency after Issue #8)*
+**Due date:** To be defined
 
 ---
 
@@ -298,7 +298,7 @@
 
 **Policy linkage:** Network Security Standards · Change Management Policy · Incident Traceability Procedures
 **Suggested Owner:** David Cirielli, CISO + **Ezequiel Tavella, Cybersecurity Manager** (co-owner for NTW controls)
-**Suggested Deadline:** **September 30, 2026** *(high severity but requires network standards design + system integration lead time)*
+**Due date:** To be defined
 
 ---
 
@@ -314,20 +314,19 @@
 **Recommendation:** Conduct a full review of cybersecurity policies distributed to employees in Brazil and Argentina. Align with the current global governance framework. Translate and re-communicate updated policies. This should be sequenced after Issue #8 (Policy Framework) is completed to avoid re-doing the work.
 
 **Policy linkage:** Global Information Security Policy · Regional Compliance Framework · Subsidiary Governance Policy
-**Suggested Deadline:** **September 30, 2026** *(blocked until Issue #8 policy framework is finalized — sequence accordingly)*
+**Due date:** To be defined *(note: should be sequenced after Issue #8 policy framework is finalized)*
 
 ---
 
-## Deadline & Priority Summary
+## Deadline Summary
 
-| Wave | Issues | Target Deadline | Rationale |
+| # | Issues | Due Date | Source |
 |---|---|---|---|
-| **Already set** | #1, #2 | Mar 31, 2026 | Governance reporting deadlines |
-| **Wave 1 — Critical / SOX** | #3, #8, #10, #11 | **Jun 30, 2026** | High severity + formal RCM Issues #1–#4; SOX 404 impact |
-| **Wave 2 — Medium / Operational** | #4, #5, #6, #7, #9 | **Jun 30, 2026** | Medium severity; foundational for Wave 3 |
-| **Wave 3 — Dependent / Complex** | #12, #13 | **Sep 30, 2026** | Requires lead time (network standards, BR/AR alignment after #8) |
+| 1, 2 | Strategy approval & reporting | **Mar 31, 2026** | Set in Vanta ✅ |
+| 3–13 | All remaining issues | **To be defined** | Not set in Vanta or RCM report |
 
-> **Top priority action:** Set deadlines in Vanta for Issues **#3, #8, #10, #11** immediately — these carry the 4 formal High-priority RCM findings with no due date.
+> Deadlines for Issues **#3–#13** must be agreed with management and set in Vanta.
+> Priority for scheduling: Issues **#3, #8, #10, #11** are High severity and carry formal RCM findings (#1–#4).
 
 ---
 
